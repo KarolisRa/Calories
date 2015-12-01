@@ -1,18 +1,31 @@
 <html>
 <head>
+<link rel="stylesheet" href="style.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-<div data-role="page">
+<style>
+.ui-page { 
+    background:#99FF00;
+}
+</style>
+<div data-role="page" background-color='#99FF00'>
     <div data-role="header" data-theme='b'>
-      <h1>LOL</h1>
+      <h1>Colorie Counter</h1>
     </div>
     <div data-role="content" data-theme='c'>
-      <p>XDDDDDDDDDDDDDDDDDDDDDDDDDDdd</p>
-      <a href="gaidys.html" data-role="button">MEILE</a>
+<form>
+     <label for="text-1">Username:</label>
+     <input data-clear-btn="true" name="text-1" id="text-1" value="" type="text">
+     <label for="text-3">Password:</label>
+     <input data-clear-btn="true" name="text-3" id="text-2" value="" type="text">
+</form>
+<center><button class="ui-btn ui-btn-inline">Submit</button></center>
+<br></br>
+<center> <a href="gaidys.html">Not a member?</a> </center>
     </div>
 </div>>
 </html>
